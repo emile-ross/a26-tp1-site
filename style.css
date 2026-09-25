@@ -28,6 +28,12 @@ body {
 	padding: 25px;
 	background: hwb(27 45% 18%);
 }
+.luigi {
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  background-image: url('imgs/Luigi_tire_shop.jpg')
+}
 
 /* barre de navigation */
 .nav-bar {
@@ -36,11 +42,11 @@ body {
 }
 /* couleur de la page active */
 .nav-bar a.active {
-	background-color: #77aa8b;
-	color: #ff2d55;
-	font-family: "Road Rage", sans-serif;
+  background-color: #77aa8b;
+  color: #ff2d55;
+  font-family: "Road Rage", sans-serif;
+  font-size: 14px;
 }
-
 .nav-bar a {
 	float: left;
 	color: #f0f0f0;
