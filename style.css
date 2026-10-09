@@ -48,6 +48,15 @@ a {
 	font-family: "Cooper Black", sans-serif;
 	color:#000000;
 }
+
+/* parfois Xavier ecrit matter parfois mater jsp lequel est bon */
+.mater {
+	max-width: 800px;
+	margin: auto;
+	padding: 25px;
+	background-image: url('imgs/asphalt_2.jpg')
+}
+
 .matter {
 	font-size: 50px;
 	text-align: center;
@@ -59,12 +68,6 @@ a {
 body {
 	background: #121212;
 }
-/*{
-	background: #444444;
-	color: #000000;
-	font-family: "Linux Libertine Capitals", Arial, Helvetica, sans-serif;
-	line-height: 1.5;						
-}*/
 .page {
 	max-width: 750px;
 	margin: auto;
@@ -76,14 +79,6 @@ body {
 	margin: auto;
 	padding: 40px;
 	background-image: url('imgs/Luigi_tire_shop.jpg')
-}
-
-/* parfois Xavier ecrit matter parfois mater jsp lequel est bon */
-.mater {
-	max-width: 800px;
-	margin: auto;
-	padding: 25px;
-	background-image: url('imgs/asphalt_2.jpg')
 }
 
 /* barre de navigation */
@@ -146,7 +141,7 @@ body {
 	margin-right: -12px;
 
 	transition:
-		transform 0.35s cubic-bezier(.2, .8, .2, 1),	/* controle du ~~*rythme~~ de vitesse */
+		transform 0.35s cubic-bezier(.2, .8, .2, 1),	/* controle du ~~*rythme~~ de la vitesse */
 		filter 0.35s ease;
 }
 
