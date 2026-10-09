@@ -21,6 +21,21 @@
 			<a href="../metalfm/heavymetal.html">Heavy Metal</a>
 		</div>
 
+		<!-- afficher une baniere pour aller sur le site hote -->
+		<div id="hosted-link" style="display: none;">
+			Voir la page en ligne: <a href="https://emileross.codeberg.page/fr/a26-tp1-site/index.html">Cliquez ici</a>
+			<!-- cacher le popup si l'utilisateur clique sur le bouton -->
+			<button onclick="this.parentElement.style.display = 'none'">
+				    ✕
+			</button>
+		</div>
+		<script>
+			setTimeout(() => {
+				document.getElementById("hosted-link").style.display = "block";
+			}, 1000);
+		</script>
+
+
 		<div class="mater">
 			<!-- affiger tout dans un rectangle -->
 		<h2 class="boite">Heavy Metal Flash McQueen!!!!</h2>
