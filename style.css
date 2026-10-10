@@ -21,7 +21,7 @@ li {
 }
 #hosted-link {
 	background-color: #343434;
-	color: #fdffff;
+	color: #FDFFFF;
 }
 a {
 	color: #9999FF;
@@ -34,7 +34,7 @@ a {
 }
 .boite {
 	background-color: #101010;
-	color: #fdffff;
+	color: #FDFFFF;
 	font-family: "Road Rage", sans-serif;
 	font-size: 45px;
 	padding: 10px;
@@ -43,7 +43,7 @@ a {
 	border: 2px solid #8fb0449a;
 }
 .explanation{
-	color: #f3f3f3;
+	color: #F3F3F3;
 	font-family: "American Typewriter", sans-serif;
 	font-size: 27px;
 }
@@ -66,7 +66,7 @@ a {
 	font-size: 50px;
 	text-align: center;
 	font-family: "American Typewriter, serif";
-	color:#ffffff;
+	color:#FFFFFF;
 }
 
 
@@ -87,7 +87,8 @@ body {
 }
 
 #contrast {
-	background-color: #34343412;
+	color:#FFFFFF;
+	background-color: #34343460;
 }
 
 /* barre de navigation */
@@ -99,13 +100,13 @@ body {
 /* couleur de la page active */
 .nav-bar a.active {
 	background-color: #77aa8b;
-	color: #ff2d55;
+	color: #FF2D55;
 	font-family: "Road Rage", sans-serif;
 	font-size: 14px;
 }
 .nav-bar a {
 	float: left;
-	color: #f0f0f0;
+	color: #F0F0F0;
 	text-align: center;
 	padding: 12px 12px;
 	width: 110px;	/* fixed width (size) */
