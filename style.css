@@ -1,11 +1,16 @@
 @import url("https://fonts.cdnfonts.com/css/road-rage");
-@import url('https://fonts.cdnfonts.com/css/cooper-black'); */
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
 
 h1,
 h2,
 h3 {
 	text-align: center;
 	font-family: "Cooper Black", sans-serif;
+}
+
+:root {
+  --background_width: 950px;
+  --background-color: hwb(27 45% 18%);
 }
 
 p {
@@ -51,7 +56,7 @@ a {
 
 /* parfois Xavier ecrit matter parfois mater jsp lequel est bon */
 .mater {
-	max-width: 800px;
+	max-width: var(--background_width);
 	margin: auto;
 	padding: 25px;
 	background-image: url('imgs/asphalt_2.jpg')
@@ -69,16 +74,20 @@ body {
 	background: #121212;
 }
 .page {
-	max-width: 750px;
+	max-width: var(--background_width);
 	margin: auto;
 	padding: 25px;
-	background: hwb(27 45% 18%);
+	background: var(--background-color);
 }
 .luigi {
-	max-width: 1000px;
+	max-width: var(--background_width);
 	margin: auto;
 	padding: 40px;
 	background-image: url('imgs/Luigi_tire_shop.jpg')
+}
+
+#contrast {
+	background-color: #34343412;
 }
 
 /* barre de navigation */
@@ -86,6 +95,7 @@ body {
 	background-color: #232323;
 	overflow: hidden;
 }
+
 /* couleur de la page active */
 .nav-bar a.active {
 	background-color: #77aa8b;
