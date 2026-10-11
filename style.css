@@ -19,6 +19,11 @@ p {
 li {
 	text-align: left;
 }
+
+footer {
+	color: white;
+}
+
 #hosted-link {
 	background-color: #343434;
 	color: #FDFFFF;
